@@ -113,7 +113,7 @@ text-align: left;
     color:#E77C40;
     }
     .fa-star.empty{
-    color:white;
+    color:rgba(108, 108, 108, 1);
     ;
     }
    .girl{
@@ -121,6 +121,40 @@ text-align: left;
         margin-top: 50px;
         height: 149px;
         width: 149px;
+       
+
     }
-   
+   .client-details{
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    
+   }
 /* Clients Review End */
+
+/* Question section start */
+.accordion-header{
+    font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.accordion-body{
+    color: rgba(126, 132, 140, 1);
+
+}
+
+
+
+
+
+
+/* Question section End */
