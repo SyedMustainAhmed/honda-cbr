@@ -152,9 +152,20 @@ text-align: left;
 
 }
 
-
-
-
-
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* Question section End */
+
+
+
+
+/* extra table start section */
+
+.table-margin{
+    margin-top: 50px;
+}
+
+
