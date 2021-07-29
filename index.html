@@ -11,35 +11,227 @@
     <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9405f91d78.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header Start -->
-    <header>
+    <header style="background: rgba(38, 70, 83, 1);">
 
-        <section>
+        <section class="container mb-4">
 
             <div>
 
-                <div>
+                <div class="row align-items-center justify-content-between py-5">
+                    <div class="col-12 col-lg-6 ">
+                        <p class="header-paragraph">Computer-controlled digital transistorized with
+                            electronic advance</p>
+                        <h3 style="color: rgba(255, 255, 255, 1); ">Honda CBR 300R</h3>
+                        <p class="header-paragraph" id="header-paragraph-bottom">Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do
+                            amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                            sunt nostrud amet.</p>
 
+                        <!-- Button trigger modal -->
+                        <button type="button" class=" py-2 px-4 header-button"
+                            style="background: rgba(231, 111, 81, 1); color: white;" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">If you’ve got a soft spot for
+                                            sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is
+                                            your sweet spot between form and function. It’s narrow, light, and a total
+                                            blast to ride around town and on twisty back roads. The single-cylinder
+                                            engine offers great fuel economy, with smooth and friendly torque delivery.
+                                            And the affordable cost and responsive handling makes it a terrific bike for
+                                            first-time riders, and for those looking to grow their garage. </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 "><img class="img-fluid" src="images/header-bike.png" alt="">
+                    </div>
                 </div>
-                <div>
-                    <img src="images/header-bike.png" alt="">
+        </section>
+    </header>
+    <!-- header finish -->
+
+    <main>
+        <!-- Bike feature section  Start -->
+        <section class="container">
+            <div class="text-center py-4 fe-bike-sec">
+                <h1>Fetured Bikes 2021</h1>
+                <h6>Best Bike Collection</h6>
+            </div>
+            <div class="row gx-5 pt-8">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid p-5 grayscale" src="images/feature-bike.jpg" alt="">
                 </div>
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid p-5" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid p-5 grayscale" src="images/feature-bike.jpg" alt="">
+                </div>
+
+            </div>
+        </section>
+        <!-- Bike feature section End-->
+        <!-- Latest News section  Start -->
+        <section class="container">
+            <div class="text-center py-5">
+                <h1 style="color:#0A0826">Latest News</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a error
+                                et labore quae amet.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="feature-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
+                                exercitationem quos minus quae laudantium necessitatibus?</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="feature-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum, id
+                                deserunt dolore natus aliquid!</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="feature-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest News section End-->
+        <!-- Client Review Start  -->
+        <section class="container">
+            <h2 class="section-title text-center py-5"><span style="#0A0826">Happy </span> <span
+                    style="color: #E76F51;">Clients
+                    Says</span>
+            </h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-1.png" class="card-img-top customer mx-auto w-50 pt-5" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <div class="mx-auto">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star empty"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-2.png" class="card-img-top customer mx-auto w-50 pt-5 " alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <div class="mx-auto">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star empty"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-3.jpg" class="card-img-top mx-auto w-50 pt-6 girl" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <div class="mx-auto">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star empty"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
 
 
             </div>
+
+
+
+
 
         </section>
 
 
 
 
-    </header>
 
-    <main>
 
+        <!-- Client Rewiew End -->
     </main>
 
     <footer>
